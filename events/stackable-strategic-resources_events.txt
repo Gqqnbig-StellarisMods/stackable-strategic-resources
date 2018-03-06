@@ -1,0 +1,23 @@
+namespace = stackableStrategicResources
+
+country_event = {
+	id = stackableStrategicResources.1
+	name = stackableStrategicResources.1.name
+	desc = stackableStrategicResources.1.desc
+
+	#is_hidden = yes
+
+	mean_time_to_happen = { months = 1 }
+
+	trigger = {
+		has_country_strategic_resource = { type = sr_engos amount > 1 }
+	}
+
+	option = {
+		name = OK
+		add_modifier = { modifier = engos1 days = -1 }
+
+	}
+
+
+}
