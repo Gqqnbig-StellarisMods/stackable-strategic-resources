@@ -16,31 +16,31 @@ country_event = {
 			limit = {
 				has_country_strategic_resource = { type = sr_engos amount = 2 }
 			}
-			add_modifier = { modifier = engos1 days = 30 }
+			add_modifier = { modifier = engos1 days = 45 }
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_engos amount = 3 }
 			}
-			add_modifier = { modifier = engos2 days = 30 }
+			add_modifier = { modifier = engos2 days = 45 }
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_engos amount = 4 }
 			}
-			add_modifier = { modifier = engos3 days = 30 }
+			add_modifier = { modifier = engos3 days = 45 }
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_engos amount = 5 }
 			}
-			add_modifier = { modifier = engos4 days = 30 }
+			add_modifier = { modifier = engos4 days = 45 }
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_engos amount = 6 }
 			}
-			add_modifier = { modifier = engos5 days = 30 }
+			add_modifier = { modifier = engos5 days = 45 }
 		}
 	}
 }
@@ -61,31 +61,31 @@ country_event = {
 			limit = {
 				has_country_strategic_resource = { type = sr_garanthium amount = 2 }
 			}
-			add_modifier = { modifier = garanthium1 days = 30 }
+			add_modifier = { modifier = garanthium1 days = 45 }
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_garanthium amount = 3 }
 			}
-			add_modifier = { modifier = garanthium2 days = 30 }
+			add_modifier = { modifier = garanthium2 days = 45 }
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_garanthium amount = 4 }
 			}
-			add_modifier = { modifier = garanthium3 days = 30 }
+			add_modifier = { modifier = garanthium3 days = 45 }
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_garanthium amount = 5 }
 			}
-			add_modifier = { modifier = garanthium4 days = 30 }
+			add_modifier = { modifier = garanthium4 days = 45 }
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_garanthium amount = 6 }
 			}
-			add_modifier = { modifier = garanthium5 days = 30 }
+			add_modifier = { modifier = garanthium5 days = 45 }
 		}
 	}
 }
