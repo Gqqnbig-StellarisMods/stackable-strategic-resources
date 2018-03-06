@@ -42,6 +42,18 @@ country_event = {
 			}
 			add_modifier = { modifier = engos5 days = 45 }
 		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_engos amount = 7 }
+			}
+			add_modifier = { modifier = engos6 days = 45 }
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_engos amount > 7 }
+			}
+			add_modifier = { modifier = engos7 days = 45 }
+		}
 	}
 }
 
@@ -86,6 +98,18 @@ country_event = {
 				has_country_strategic_resource = { type = sr_garanthium amount = 6 }
 			}
 			add_modifier = { modifier = garanthium5 days = 45 }
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_garanthium amount = 7 }
+			}
+			add_modifier = { modifier = garanthium6 days = 45 }
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_garanthium amount > 7 }
+			}
+			add_modifier = { modifier = garanthium7 days = 45 }
 		}
 	}
 }
