@@ -2,22 +2,45 @@ namespace = stackableStrategicResources
 
 country_event = {
 	id = stackableStrategicResources.1
-	name = stackableStrategicResources.1.name
-	desc = stackableStrategicResources.1.desc
 
-	#is_hidden = yes
+	is_hidden = yes
 
-	mean_time_to_happen = { months = 1 }
+	mean_time_to_happen = { days = 30 }
 
 	trigger = {
 		has_country_strategic_resource = { type = sr_engos amount > 1 }
 	}
 
-	option = {
-		name = OK
-		add_modifier = { modifier = engos1 days = -1 }
-
+	immediate = {
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_engos amount = 2 }
+			}
+			add_modifier = { modifier = engos1 days = 30 }
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_engos amount = 3 }
+			}
+			add_modifier = { modifier = engos2 days = 30 }
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_engos amount = 4 }
+			}
+			add_modifier = { modifier = engos3 days = 30 }
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_engos amount = 5 }
+			}
+			add_modifier = { modifier = engos4 days = 30 }
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_engos amount = 6 }
+			}
+			add_modifier = { modifier = engos5 days = 30 }
+		}
 	}
-
-
 }
