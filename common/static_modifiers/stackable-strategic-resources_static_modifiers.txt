@@ -13,3 +13,19 @@ engos4 = {
 engos5 = {
 	pop_environment_tolerance = 0.25
 }
+
+garanthium1 = {
+	ship_hitpoints_mult = 0.1
+}
+garanthium2 = {
+	ship_hitpoints_mult = 0.2
+}
+garanthium3 = {
+	ship_hitpoints_mult = 0.3
+}
+garanthium4 = {
+	ship_hitpoints_mult = 0.4
+}
+garanthium5 = {
+	ship_hitpoints_mult = 0.5
+}

@@ -3,7 +3,7 @@ namespace = stackableStrategicResources
 country_event = {
 	id = stackableStrategicResources.1
 
-	is_hidden = yes
+	hide_window = yes
 
 	mean_time_to_happen = { days = 30 }
 
@@ -41,6 +41,51 @@ country_event = {
 				has_country_strategic_resource = { type = sr_engos amount = 6 }
 			}
 			add_modifier = { modifier = engos5 days = 30 }
+		}
+	}
+}
+
+country_event = {
+	id = stackableStrategicResources.2
+
+	hide_window = yes
+
+	mean_time_to_happen = { days = 30 }
+
+	trigger = {
+		has_country_strategic_resource = { type = sr_garanthium amount > 1 }
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_garanthium amount = 2 }
+			}
+			add_modifier = { modifier = garanthium1 days = 30 }
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_garanthium amount = 3 }
+			}
+			add_modifier = { modifier = garanthium2 days = 30 }
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_garanthium amount = 4 }
+			}
+			add_modifier = { modifier = garanthium3 days = 30 }
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_garanthium amount = 5 }
+			}
+			add_modifier = { modifier = garanthium4 days = 30 }
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_garanthium amount = 6 }
+			}
+			add_modifier = { modifier = garanthium5 days = 30 }
 		}
 	}
 }
