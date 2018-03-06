@@ -1,0 +1,3 @@
+engos1 = {
+	pop_environment_tolerance = 0.1
+}
