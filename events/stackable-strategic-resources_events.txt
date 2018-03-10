@@ -12,55 +12,75 @@ country_event = {
 	}
 
 	immediate = {
-		remove_modifier = engos1
-		remove_modifier = engos2
-		remove_modifier = engos3
-		remove_modifier = engos4
-		remove_modifier = engos5
-		remove_modifier = engos6
-		remove_modifier = engos7
-
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_engos amount = 2 }
 			}
 			add_modifier = { modifier = engos1 days = -1 }
+
+			else = {
+				remove_modifier = engos1
+			}
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_engos amount = 3 }
 			}
 			add_modifier = { modifier = engos2 days = -1 }
+
+			else = {
+				remove_modifier = engos2
+			}
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_engos amount = 4 }
 			}
 			add_modifier = { modifier = engos3 days = -1 }
+
+			else = {
+				remove_modifier = engos3
+			}
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_engos amount = 5 }
 			}
 			add_modifier = { modifier = engos4 days = -1 }
+
+			else = {
+				remove_modifier = engos4
+			}
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_engos amount = 6 }
 			}
 			add_modifier = { modifier = engos5 days = -1 }
+
+			else = {
+				remove_modifier = engos5
+			}
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_engos amount = 7 }
 			}
 			add_modifier = { modifier = engos6 days = -1 }
+
+			else = {
+				remove_modifier = engos6 
+			}
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_engos amount > 7 }
 			}
 			add_modifier = { modifier = engos7 days = -1 }
+
+			else = {
+				remove_modifier = engos7
+			}
 		}
 	}
 }
@@ -77,55 +97,75 @@ country_event = {
 	}
 
 	immediate = {
-		remove_modifier = garanthium1
-		remove_modifier = garanthium2
-		remove_modifier = garanthium3
-		remove_modifier = garanthium4
-		remove_modifier = garanthium5
-		remove_modifier = garanthium6
-		remove_modifier = garanthium7
-
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_garanthium amount = 2 }
 			}
 			add_modifier = { modifier = garanthium1 days = -1 }
+
+			else = {
+				remove_modifier = garanthium1
+			}
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_garanthium amount = 3 }
 			}
 			add_modifier = { modifier = garanthium2 days = -1 }
+
+			else = {
+				remove_modifier = garanthium2
+			}
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_garanthium amount = 4 }
 			}
 			add_modifier = { modifier = garanthium3 days = -1 }
+
+			else = {
+				remove_modifier = garanthium3
+			}
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_garanthium amount = 5 }
 			}
 			add_modifier = { modifier = garanthium4 days = -1 }
+
+			else = {
+				remove_modifier = garanthium4
+			}
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_garanthium amount = 6 }
 			}
 			add_modifier = { modifier = garanthium5 days = -1 }
+
+			else = {
+				remove_modifier = garanthium5
+			}
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_garanthium amount = 7 }
 			}
 			add_modifier = { modifier = garanthium6 days = -1 }
+
+			else = {
+				remove_modifier = garanthium6
+			}
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_garanthium amount > 7 }
 			}
 			add_modifier = { modifier = garanthium7 days = -1 }
+
+			else = {
+				remove_modifier = garanthium7
+			}
 		}
 	}
 }
@@ -142,55 +182,75 @@ country_event = {
 	}
 
 	immediate = {
-		remove_modifier = neutronium1
-		remove_modifier = neutronium2
-		remove_modifier = neutronium3
-		remove_modifier = neutronium4
-		remove_modifier = neutronium5
-		remove_modifier = neutronium6
-		remove_modifier = neutronium7
-
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_neutronium amount = 2 }
 			}
 			add_modifier = { modifier = neutronium1 days = -1 }
+
+			else = {
+				remove_modifier = neutronium1
+			}
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_neutronium amount = 3 }
 			}
 			add_modifier = { modifier = neutronium2 days = -1 }
+
+			else = {
+				remove_modifier = neutronium2
+			}
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_neutronium amount = 4 }
 			}
 			add_modifier = { modifier = neutronium3 days = -1 }
+
+			else = {
+				remove_modifier = neutronium3
+			}
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_neutronium amount = 5 }
 			}
 			add_modifier = { modifier = neutronium4 days = -1 }
+
+			else = {
+				remove_modifier = neutronium4
+			}
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_neutronium amount = 6 }
 			}
 			add_modifier = { modifier = neutronium5 days = -1 }
+
+			else = {
+				remove_modifier = neutronium5
+			}
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_neutronium amount = 7 }
 			}
 			add_modifier = { modifier = neutronium6 days = -1 }
+
+			else = {
+				remove_modifier = neutronium6
+			}
 		}
 		if = {
 			limit = {
 				has_country_strategic_resource = { type = sr_neutronium amount > 7 }
 			}
 			add_modifier = { modifier = neutronium7 days = -1 }
+
+			else = {
+				remove_modifier = neutronium7
+			}
 		}
 	}
 }
