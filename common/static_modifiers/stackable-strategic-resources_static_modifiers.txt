@@ -41,3 +41,25 @@ garanthium6 = {
 garanthium7 = {
 	ship_hitpoints_mult = 0.7
 }
+
+neutronium1 = {
+	ship_armor_mult = 0.20
+}
+neutronium2 = {
+	ship_armor_mult = 0.40
+}
+neutronium3 = {
+	ship_armor_mult = 0.60
+}
+neutronium4 = {
+	ship_armor_mult = 0.80
+}
+neutronium5 = {
+	ship_armor_mult = 1.0
+}
+neutronium6 = {
+	ship_armor_mult = 1.20
+}
+neutronium7 = {
+	ship_armor_mult = 1.40
+}

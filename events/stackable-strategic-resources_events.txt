@@ -129,3 +129,68 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = stackableStrategicResources.3
+
+	hide_window = yes
+
+	mean_time_to_happen = { days = 30 }
+
+	trigger = {
+		has_country_strategic_resource = { type = sr_neutronium amount > 1 }
+	}
+
+	immediate = {
+		remove_modifier = neutronium1
+		remove_modifier = neutronium2
+		remove_modifier = neutronium3
+		remove_modifier = neutronium4
+		remove_modifier = neutronium5
+		remove_modifier = neutronium6
+		remove_modifier = neutronium7
+
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_neutronium amount = 2 }
+			}
+			add_modifier = { modifier = neutronium1 days = -1 }
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_neutronium amount = 3 }
+			}
+			add_modifier = { modifier = neutronium2 days = -1 }
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_neutronium amount = 4 }
+			}
+			add_modifier = { modifier = neutronium3 days = -1 }
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_neutronium amount = 5 }
+			}
+			add_modifier = { modifier = neutronium4 days = -1 }
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_neutronium amount = 6 }
+			}
+			add_modifier = { modifier = neutronium5 days = -1 }
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_neutronium amount = 7 }
+			}
+			add_modifier = { modifier = neutronium6 days = -1 }
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_neutronium amount > 7 }
+			}
+			add_modifier = { modifier = neutronium7 days = -1 }
+		}
+	}
+}
