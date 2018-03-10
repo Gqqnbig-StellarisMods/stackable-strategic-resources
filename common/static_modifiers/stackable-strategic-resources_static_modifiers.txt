@@ -63,3 +63,25 @@ neutronium6 = {
 neutronium7 = {
 	ship_armor_mult = 1.40
 }
+
+satramene1 = {
+	pop_government_ethic_attraction = 0.10
+}
+satramene2 = {
+	pop_government_ethic_attraction = 0.20
+}
+satramene3 = {
+	pop_government_ethic_attraction = 0.30
+}
+satramene4 = {
+	pop_government_ethic_attraction = 0.40
+}
+satramene5 = {
+	pop_government_ethic_attraction = 0.50
+}
+satramene6 = {
+	pop_government_ethic_attraction = 0.60
+}
+satramene7 = {
+	pop_government_ethic_attraction = 0.70
+}
