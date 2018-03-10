@@ -339,3 +339,88 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = stackableStrategicResources.5
+
+	hide_window = yes
+
+	mean_time_to_happen = { days = 30 }
+
+	trigger = {
+		has_country_strategic_resource = { type = sr_teldar amount > 1 }
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_teldar amount = 2 }
+			}
+			add_modifier = { modifier = teldar1 days = -1 }
+
+			else = {
+				remove_modifier = teldar1
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_teldar amount = 3 }
+			}
+			add_modifier = { modifier = teldar2 days = -1 }
+
+			else = {
+				remove_modifier = teldar2
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_teldar amount = 4 }
+			}
+			add_modifier = { modifier = teldar3 days = -1 }
+
+			else = {
+				remove_modifier = teldar3
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_teldar amount = 5 }
+			}
+			add_modifier = { modifier = teldar4 days = -1 }
+
+			else = {
+				remove_modifier = teldar4
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_teldar amount = 6 }
+			}
+			add_modifier = { modifier = teldar5 days = -1 }
+
+			else = {
+				remove_modifier = teldar5
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_teldar amount = 7 }
+			}
+			add_modifier = { modifier = teldar6 days = -1 }
+
+			else = {
+				remove_modifier = teldar6
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_teldar amount > 7 }
+			}
+			add_modifier = { modifier = teldar7 days = -1 }
+
+			else = {
+				remove_modifier = teldar7
+			}
+		}
+	}
+}

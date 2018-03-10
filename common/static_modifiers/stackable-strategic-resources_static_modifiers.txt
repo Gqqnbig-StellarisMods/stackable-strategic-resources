@@ -85,3 +85,25 @@ satramene6 = {
 satramene7 = {
 	pop_government_ethic_attraction = 0.70
 }
+
+teldar1 = {
+	weapon_type_kinetic_weapon_damage_mult = 0.15
+}
+teldar2 = {
+	weapon_type_kinetic_weapon_damage_mult = 0.3
+}
+teldar3 = {
+	weapon_type_kinetic_weapon_damage_mult = 0.45
+}
+teldar4 = {
+	weapon_type_kinetic_weapon_damage_mult = 0.6
+}
+teldar5 = {
+	weapon_type_kinetic_weapon_damage_mult = 0.75
+}
+teldar6 = {
+	weapon_type_kinetic_weapon_damage_mult = 0.9
+}
+teldar7 = {
+	weapon_type_kinetic_weapon_damage_mult = 1.05
+}
