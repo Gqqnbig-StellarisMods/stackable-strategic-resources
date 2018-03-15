@@ -11,3 +11,11 @@
 
 
 由于技术原因，同种战略资源的叠加效果目前最多支持到8倍，即8个同种资源的效果。
+
+## 安装
+
+### Steam安装
+订阅 http://steamcommunity.com/sharedfiles/filedetails/?id=1331383633
+
+### 手动安装
+复制本仓库到 Documents\Paradox Interactive\Stellaris\mod，然后添加.mod文件指向stackable-strategic-resources。
