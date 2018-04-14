@@ -424,3 +424,88 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = stackableStrategicResources.6
+
+	hide_window = yes
+
+	mean_time_to_happen = { days = 30 }
+
+	trigger = {
+		has_country_strategic_resource = { type = sr_lythuric amount > 1 }
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_lythuric amount = 2 }
+			}
+			add_modifier = { modifier = lythuric1 days = -1 }
+
+			else = {
+				remove_modifier = lythuric1
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_lythuric amount = 3 }
+			}
+			add_modifier = { modifier = lythuric2 days = -1 }
+
+			else = {
+				remove_modifier = lythuric2
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_lythuric amount = 4 }
+			}
+			add_modifier = { modifier = lythuric3 days = -1 }
+
+			else = {
+				remove_modifier = lythuric3
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_lythuric amount = 5 }
+			}
+			add_modifier = { modifier = lythuric4 days = -1 }
+
+			else = {
+				remove_modifier = lythuric4
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_lythuric amount = 6 }
+			}
+			add_modifier = { modifier = lythuric5 days = -1 }
+
+			else = {
+				remove_modifier = lythuric5
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_lythuric amount = 7 }
+			}
+			add_modifier = { modifier = lythuric6 days = -1 }
+
+			else = {
+				remove_modifier = lythuric6
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_lythuric amount > 7 }
+			}
+			add_modifier = { modifier = lythuric7 days = -1 }
+
+			else = {
+				remove_modifier = lythuric7
+			}
+		}
+	}
+}

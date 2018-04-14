@@ -107,3 +107,25 @@ teldar6 = {
 teldar7 = {
 	weapon_type_kinetic_weapon_damage_mult = 1.05
 }
+
+lythuric1 = {
+	ship_shield_hp_mult = 0.20
+}
+lythuric2 = {
+	ship_shield_hp_mult = 0.40
+}
+lythuric3 = {
+	ship_shield_hp_mult = 0.60
+}
+lythuric4 = {
+	ship_shield_hp_mult = 0.80
+}
+lythuric5 = {
+	ship_shield_hp_mult = 1.00
+}
+lythuric6 = {
+	ship_shield_hp_mult = 1.20
+}
+lythuric7 = {
+	ship_shield_hp_mult = 1.40
+}
