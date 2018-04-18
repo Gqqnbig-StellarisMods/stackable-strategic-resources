@@ -4,7 +4,7 @@
 
 如果你交易出去了战略资源，本mod会在一个月内自动调整叠加加成。
 
-目前可叠加的战略资源有萦戈气体、钢石矿、中子矿、赛特宁气体、钛达尔水晶。
+目前可叠加的战略资源有萦戈气体、钢石矿、中子矿、赛特宁气体、钛达尔水晶、暗物质。
 
 
 ![叠加加成可以在政府界面看到](https://raw.githubusercontent.com/gqqnbig/stackable-strategic-resources/master/Screenshot1.jpg)

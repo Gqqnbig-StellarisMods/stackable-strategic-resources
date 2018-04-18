@@ -509,3 +509,88 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = stackableStrategicResources.7
+
+	hide_window = yes
+
+	mean_time_to_happen = { days = 30 }
+
+	trigger = {
+		has_country_strategic_resource = { type = sr_dark_matter amount > 1 }
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_dark_matter amount = 2 }
+			}
+			add_modifier = { modifier = dark_matter1 days = -1 }
+
+			else = {
+				remove_modifier = dark_matter1
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_dark_matter amount = 3 }
+			}
+			add_modifier = { modifier = dark_matter2 days = -1 }
+
+			else = {
+				remove_modifier = dark_matter2
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_dark_matter amount = 4 }
+			}
+			add_modifier = { modifier = dark_matter3 days = -1 }
+
+			else = {
+				remove_modifier = dark_matter3
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_dark_matter amount = 5 }
+			}
+			add_modifier = { modifier = dark_matter4 days = -1 }
+
+			else = {
+				remove_modifier = dark_matter4
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_dark_matter amount = 6 }
+			}
+			add_modifier = { modifier = dark_matter5 days = -1 }
+
+			else = {
+				remove_modifier = dark_matter5
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_dark_matter amount = 7 }
+			}
+			add_modifier = { modifier = dark_matter6 days = -1 }
+
+			else = {
+				remove_modifier = dark_matter6
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_dark_matter amount > 7 }
+			}
+			add_modifier = { modifier = dark_matter7 days = -1 }
+
+			else = {
+				remove_modifier = dark_matter7
+			}
+		}
+	}
+}

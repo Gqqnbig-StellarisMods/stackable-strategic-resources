@@ -129,3 +129,25 @@ lythuric6 = {
 lythuric7 = {
 	ship_shield_hp_mult = 1.40
 }
+
+dark_matter1 = {
+	country_resource_physics_research_mult = 0.20
+}
+dark_matter2 = {
+	country_resource_physics_research_mult = 0.40
+}
+dark_matter3 = {
+	country_resource_physics_research_mult = 0.60
+}
+dark_matter4 = {
+	country_resource_physics_research_mult = 0.80
+}
+dark_matter5 = {
+	country_resource_physics_research_mult = 1.00
+}
+dark_matter6 = {
+	country_resource_physics_research_mult = 1.20
+}
+dark_matter7 = {
+	country_resource_physics_research_mult = 1.40
+}
