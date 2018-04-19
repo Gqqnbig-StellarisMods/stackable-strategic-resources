@@ -151,3 +151,32 @@ dark_matter6 = {
 dark_matter7 = {
 	country_resource_physics_research_mult = 1.40
 }
+
+living_metal1 = {
+	megastructure_build_speed_mult = 0.3
+	ship_auto_repair_add = 0.02
+}
+living_metal2 = {
+	megastructure_build_speed_mult = 0.6
+	ship_auto_repair_add = 0.04
+}
+living_metal3 = {
+	megastructure_build_speed_mult = 0.9
+	ship_auto_repair_add = 0.06
+}
+living_metal4 = {
+	megastructure_build_speed_mult = 1.2
+	ship_auto_repair_add = 0.08
+}
+living_metal5 = {
+	megastructure_build_speed_mult = 1.5
+	ship_auto_repair_add = 0.10
+}
+living_metal6 = {
+	megastructure_build_speed_mult = 1.8
+	ship_auto_repair_add = 0.12
+}
+living_metal7 = {
+	megastructure_build_speed_mult = 2.1
+	ship_auto_repair_add = 0.14
+}
