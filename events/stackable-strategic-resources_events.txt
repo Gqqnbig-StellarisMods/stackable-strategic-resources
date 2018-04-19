@@ -5,7 +5,7 @@ country_event = {
 
 	hide_window = yes
 
-	mean_time_to_happen = { days = 30 }
+	mean_time_to_happen = { days = 60 }
 
 	trigger = {
 		has_country_strategic_resource = { type = sr_engos amount > 1 }
@@ -90,7 +90,7 @@ country_event = {
 
 	hide_window = yes
 
-	mean_time_to_happen = { days = 30 }
+	mean_time_to_happen = { days = 60 }
 
 	trigger = {
 		has_country_strategic_resource = { type = sr_garanthium amount > 1 }
@@ -175,7 +175,7 @@ country_event = {
 
 	hide_window = yes
 
-	mean_time_to_happen = { days = 30 }
+	mean_time_to_happen = { days = 60 }
 
 	trigger = {
 		has_country_strategic_resource = { type = sr_neutronium amount > 1 }
@@ -260,7 +260,7 @@ country_event = {
 
 	hide_window = yes
 
-	mean_time_to_happen = { days = 30 }
+	mean_time_to_happen = { days = 60 }
 
 	trigger = {
 		has_country_strategic_resource = { type = sr_satramene amount > 1 }
@@ -345,7 +345,7 @@ country_event = {
 
 	hide_window = yes
 
-	mean_time_to_happen = { days = 30 }
+	mean_time_to_happen = { days = 60 }
 
 	trigger = {
 		has_country_strategic_resource = { type = sr_teldar amount > 1 }
@@ -430,7 +430,7 @@ country_event = {
 
 	hide_window = yes
 
-	mean_time_to_happen = { days = 30 }
+	mean_time_to_happen = { days = 60 }
 
 	trigger = {
 		has_country_strategic_resource = { type = sr_lythuric amount > 1 }
@@ -515,7 +515,7 @@ country_event = {
 
 	hide_window = yes
 
-	mean_time_to_happen = { days = 30 }
+	mean_time_to_happen = { days = 60 }
 
 	trigger = {
 		has_country_strategic_resource = { type = sr_dark_matter amount > 1 }
