@@ -1,4 +1,4 @@
-# Stackable strategic resources
+# <img src="https://raw.githubusercontent.com/gqqnbig/stackable-strategic-resources/master/thumbnail.png" height="64" >Stackable strategic resources
 
 [中文](README.md)
 

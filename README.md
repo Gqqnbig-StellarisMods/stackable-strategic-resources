@@ -1,4 +1,4 @@
-# 可叠加的战略资源
+# <img src="https://raw.githubusercontent.com/gqqnbig/stackable-strategic-resources/master/thumbnail.png" height="64px" >可叠加的战略资源
 
 [English](README-en.md)
 
