@@ -679,3 +679,88 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = stackableStrategicResources.9
+
+	hide_window = yes
+
+	mean_time_to_happen = { days = 60 }
+
+	trigger = {
+		has_country_strategic_resource = { type = sr_pitharan amount > 1 }
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_pitharan amount = 2 }
+			}
+			add_modifier = { modifier = pitharan1 days = -1 }
+
+			else = {
+				remove_modifier = pitharan1
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_pitharan amount = 3 }
+			}
+			add_modifier = { modifier = pitharan2 days = -1 }
+
+			else = {
+				remove_modifier = pitharan2
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_pitharan amount = 4 }
+			}
+			add_modifier = { modifier = pitharan3 days = -1 }
+
+			else = {
+				remove_modifier = pitharan3
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_pitharan amount = 5 }
+			}
+			add_modifier = { modifier = pitharan4 days = -1 }
+
+			else = {
+				remove_modifier = pitharan4
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_pitharan amount = 6 }
+			}
+			add_modifier = { modifier = pitharan5 days = -1 }
+
+			else = {
+				remove_modifier = pitharan5
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_pitharan amount = 7 }
+			}
+			add_modifier = { modifier = pitharan6 days = -1 }
+
+			else = {
+				remove_modifier = pitharan6
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_pitharan amount > 7 }
+			}
+			add_modifier = { modifier = pitharan7 days = -1 }
+
+			else = {
+				remove_modifier = pitharan7
+			}
+		}
+	}
+}

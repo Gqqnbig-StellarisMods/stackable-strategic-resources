@@ -180,3 +180,25 @@ living_metal7 = {
 	megastructure_build_speed_mult = 2.1
 	ship_auto_repair_add = 0.14
 }
+
+pitharan1= {
+	country_resource_food_mult = 0.10
+}
+pitharan2= {
+	country_resource_food_mult = 0.20
+}
+pitharan3= {
+	country_resource_food_mult = 0.30
+}
+pitharan4= {
+	country_resource_food_mult = 0.40
+}
+pitharan5= {
+	country_resource_food_mult = 0.50
+}
+pitharan6= {
+	country_resource_food_mult = 0.60
+}
+pitharan7= {
+	country_resource_food_mult = 0.70
+}
