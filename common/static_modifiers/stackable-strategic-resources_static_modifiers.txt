@@ -224,3 +224,32 @@ yuranic6= {
 yuranic7= {
 	weapon_type_energy_weapon_damage_mult = 1.05
 }
+
+zro1= {
+		ship_interstellar_speed_mult = 0.50
+		ship_sensor_range_mult = 1.00
+}
+zro2= {
+		ship_interstellar_speed_mult = 1.00
+		ship_sensor_range_mult = 2.00
+}
+zro3= {
+		ship_interstellar_speed_mult = 1.50
+		ship_sensor_range_mult = 3.00
+}
+zro4= {
+		ship_interstellar_speed_mult = 2.00
+		ship_sensor_range_mult = 4.00
+}
+zro5= {
+		ship_interstellar_speed_mult = 2.50
+		ship_sensor_range_mult = 5.00
+}
+zro6= {
+		ship_interstellar_speed_mult = 3.00
+		ship_sensor_range_mult = 6.00
+}
+zro7= {
+		ship_interstellar_speed_mult = 3.50
+		ship_sensor_range_mult = 7.00
+}
