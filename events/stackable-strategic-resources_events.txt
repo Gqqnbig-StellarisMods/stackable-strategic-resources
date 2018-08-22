@@ -764,3 +764,88 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = stackableStrategicResources.10
+
+	hide_window = yes
+
+	mean_time_to_happen = { days = 60 }
+
+	trigger = {
+		has_country_strategic_resource = { type = sr_yuranic amount > 1 }
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_yuranic amount = 2 }
+			}
+			add_modifier = { modifier = yuranic1 days = -1 }
+
+			else = {
+				remove_modifier = yuranic1
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_yuranic amount = 3 }
+			}
+			add_modifier = { modifier = yuranic2 days = -1 }
+
+			else = {
+				remove_modifier = yuranic2
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_yuranic amount = 4 }
+			}
+			add_modifier = { modifier = yuranic3 days = -1 }
+
+			else = {
+				remove_modifier = yuranic3
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_yuranic amount = 5 }
+			}
+			add_modifier = { modifier = yuranic4 days = -1 }
+
+			else = {
+				remove_modifier = yuranic4
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_yuranic amount = 6 }
+			}
+			add_modifier = { modifier = yuranic5 days = -1 }
+
+			else = {
+				remove_modifier = yuranic5
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_yuranic amount = 7 }
+			}
+			add_modifier = { modifier = yuranic6 days = -1 }
+
+			else = {
+				remove_modifier = yuranic6
+			}
+		}
+		if = {
+			limit = {
+				has_country_strategic_resource = { type = sr_yuranic amount > 7 }
+			}
+			add_modifier = { modifier = yuranic7 days = -1 }
+
+			else = {
+				remove_modifier = yuranic7
+			}
+		}
+	}
+}
