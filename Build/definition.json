@@ -1,0 +1,50 @@
+{
+	"maxNumber": 7,
+	"resources": {
+		"engos": {
+			"pop_environment_tolerance": 0.05
+		},
+
+		"garanthium": {
+			"ship_hitpoints_mult": 0.1
+		},
+
+		"neutronium": {
+			"ship_armor_mult": 0.20
+		},
+
+		"satramene": {
+			"pop_government_ethic_attraction": 0.10
+		},
+
+		"teldar": {
+			"weapon_type_kinetic_weapon_damage_mult": 0.15
+		},
+
+		"lythuric": {
+			"ship_shield_hp_mult": 0.20
+		},
+
+		"dark_matter": {
+			"country_resource_physics_research_mult": 0.20
+		},
+
+		"living_metal": {
+			"megastructure_build_speed_mult": 0.3,
+			"ship_auto_repair_add": 0.02
+		},
+
+		"pitharan": {
+			"country_resource_food_mult": 0.10
+		},
+
+		"yuranic": {
+			"weapon_type_energy_weapon_damage_mult": 0.15
+		},
+
+		"zro": {
+			"ship_interstellar_speed_mult": 0.50,
+			"ship_sensor_range_mult": 1.00
+		}
+	}
+}
