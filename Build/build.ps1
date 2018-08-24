@@ -18,9 +18,9 @@ $langFile = "$($targetDirectory)localisation\english\stackable-strategic-resourc
 $staticModifierFile = "$($targetDirectory)common\static_modifiers\stackable-strategic-resources_static_modifiers.txt"
 $eventFile = "$($targetDirectory)events\stackable-strategic-resources_events.txt"
 
-New-Item -ItemType File -Force -Path $langFile
-New-Item -ItemType File -Force -Path $staticModifierFile
-New-Item -ItemType File -Force -Path $eventFile
+New-Item -ItemType File -Force -Path $langFile | Out-Null
+New-Item -ItemType File -Force -Path $staticModifierFile | Out-Null
+New-Item -ItemType File -Force -Path $eventFile | Out-Null
 
 Out-File -InputObject "l_english:" -FilePath $langFile -Append -Encoding utf8
 "namespace = stackableStrategicResources`r`n" >> $eventFile
