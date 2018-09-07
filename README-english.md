@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/gqqnbig/stackable-strategic-resources/master/thumbnail.png" height="64" >Stackable strategic resources
+# <img src="https://github.com/Gqqnbig-StellarisMods/stackable-strategic-resources/blob/master/Dist/thumbnail.png" height="64" >Stackable strategic resources
 
 [中文](README.md)
 
@@ -6,7 +6,7 @@ Despite of the number of the same kind of strategic resources you obtained in th
 
 If you trade out a strategic resources, the mod will automatically adjust the bonus within one month.
 
-At present, strategic resources that are stackable include engos, garanthium, neutronium, satramene, engos, dark matter, and living metal.
+At present, strategic resources that are stackable include engos, garanthium, neutronium, satramene, teldar, lythuric, dark matter, living metal, pitharan, yuranic, and zro.
 
 ![The stacked effect can be seen on the government interface](https://raw.githubusercontent.com/gqqnbig/stackable-strategic-resources/master/Screenshot1.jpg)
 

@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/gqqnbig/stackable-strategic-resources/master/thumbnail.png" height="64px" >可叠加的战略资源
+# <img src="https://github.com/Gqqnbig-StellarisMods/stackable-strategic-resources/blob/master/Dist/thumbnail.png" height="64px" >可叠加的战略资源
 
 [English](README-english.md)
 
@@ -6,7 +6,7 @@
 
 如果你交易出去了战略资源，本mod会在一个月内自动调整叠加加成。
 
-目前可叠加的战略资源有<!-- resource list -->萦戈气体、钢石矿、中子矿、赛特宁气体、钛达尔水晶、暗物质、活金属、卓气<!-- resource list -->。
+目前可叠加的战略资源有<!-- resource list -->萦戈气体、钢石矿、中子矿、赛特宁气体、钛达尔水晶、莱素气体、暗物质、活金属、铍烯兰粉末、羽然水晶、卓气<!-- resource list -->。
 
 
 ![叠加加成可以在政府界面看到](https://raw.githubusercontent.com/gqqnbig/stackable-strategic-resources/master/Screenshot1.jpg)
